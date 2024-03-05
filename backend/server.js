@@ -12,6 +12,6 @@ app.listen(port, () => {
   console.log(`Server at http://localhost:${port}`);
 });
 
-app.get("/users", (req, res) => {
+app.get("/api/users", (req, res) => {
     res.send(users);
   });
