@@ -2,11 +2,11 @@
     "version": 2,
     "build": {
         "src": "./server.js",
-        "use": "@vercel/node"
+        "use": "@vercel/nodemon"
     },
     "routes": [
         { 
-            "src": "/api/(.*)", 
+            "src": "/(.*)", 
             "dest": "/server.js" 
         }
     ]
