@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/users");
+        const response = await axios.get("http://localhost:3000/users");
         setUsers(response.data);
         console.log(response.data);
       } catch (error) {
