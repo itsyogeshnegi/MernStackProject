@@ -2,9 +2,7 @@
     "version": 2,
     "build": {
         "src": "./server.js",
-        "use": "@vercel/nodemon",
-        "buildCommand": "next build",
-        "cleanUrls": true
+        "use": "@vercel/node"
     },
     "routes": [
         { 
